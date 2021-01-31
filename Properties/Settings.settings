@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ychartsriptest.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="httpUserAgent" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36</Value>
+    </Setting>
+    <Setting Name="httpContentType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">application/json</Value>
+    </Setting>
+    <Setting Name="sessionCookieName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ycsessionid</Value>
+    </Setting>
+    <Setting Name="sessionCookieDomain" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.ycharts.com</Value>
+    </Setting>
+    <Setting Name="ychartsUrlTemplate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://ycharts.com/charts/fund_data.json?calcs=id:total_return_forward_adjusted_price,include:true,,&amp;format=real&amp;securities=id:{0},include:true,,&amp;splitType=single&amp;maxPoints=34000000</Value>
+    </Setting>
+    <Setting Name="minDelayMillis" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3000</Value>
+    </Setting>
+    <Setting Name="maxDelayMillis" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="outputDelimiter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
